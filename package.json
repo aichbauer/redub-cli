@@ -1,0 +1,34 @@
+{
+  "name": "redub-cli",
+  "version": "0.0.1",
+  "description": "a command line interface for redub (a react redux boilerplate)",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "figlet": "^1.1.2",
+    "touch": "^1.0.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-uglify": "^2.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "boilerplate",
+    "redub",
+    "cli"
+  ],
+  "author": "Lukas Aichbauer",
+  "license": "ISC",
+  "bin": {
+    "redub": "./dist/js/index.js"
+  }
+}
