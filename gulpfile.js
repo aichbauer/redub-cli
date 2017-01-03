@@ -10,7 +10,7 @@ gulp.task('default', ['jsTask', 'jsonTask']);
 
 gulp.task('serve', ['jsTask', 'jsonTask'], function(){
 
-  gulp.watch('./src/js/*.js', ['jsTask']);
+  gulp.watch('./src/*.js', ['jsTask']);
 
   gulp.watch('./src/assets/json/*.json', ['jsonTask']);
 
@@ -19,12 +19,12 @@ gulp.task('serve', ['jsTask', 'jsonTask'], function(){
 
 gulp.task('jsTask',function () {
 
-  del(['./dist/js/*.js']).then(paths => {
+  del(['./dist/*.js']).then(paths => {
 
     console.log('Deleted files and folders:\n', paths.join('\n'));
 
-    return gulp.src('./src/js/*.js')
-        .pipe(gulp.dest('./dist/js'));
+    return gulp.src('./src/*.js')
+        .pipe(gulp.dest('./dist'));
 
 
   });

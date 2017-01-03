@@ -29,6 +29,6 @@
   "author": "Lukas Aichbauer",
   "license": "ISC",
   "bin": {
-    "redub": "./dist/js/index.js"
+    "redub": "./dist/index.js"
   }
 }
