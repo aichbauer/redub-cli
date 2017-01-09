@@ -53,6 +53,11 @@ or
 $ redub new [name]
 ```
 
+shortcut
+```sh
+$ redub n [name]
+```
+
 **[name]**:
 * the name you want for this project
 
@@ -63,6 +68,11 @@ of a *containers*, a *components*, a *views*, a *reducers*, or an *actions*.
 
 ```sh
 $ redub generate [what] [name]
+```
+
+shortcut
+```sh
+$ redub g [what] [name]
 ```
 
 **[what]**:
