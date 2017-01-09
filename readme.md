@@ -6,19 +6,19 @@
 
 ## Installation
 
-```
+```sh
 $ npm i -g redub-cli 
 ```
 
 ## Your First Redub Project
 
 *Create a new app:*
-```
+```sh
 # Create the project
 $ redub new testProject
 ```
 *Generate a new component:*
-```
+```sh
 # cd into the new folder
 $ cd testProject
 
@@ -45,11 +45,11 @@ Documentation for redub -> [click here](https://github.com/rudolfsonjunior/redub
 This command has the ability to create a new redub project within the current folder 
 or to create a new folder with the specified name in the current folder.
 
-```
+```sh
 $ redub new
 ```
 or
-```
+```sh
 $ redub new [name]
 ```
 
@@ -61,7 +61,7 @@ $ redub new [name]
 This command has the ability to generate a new templates 
 of a *containers*, a *components*, a *views*, a *reducers*, or an *actions*.
 
-```
+```sh
 $ redub generate [what] [name]
 ```
 
