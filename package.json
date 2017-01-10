@@ -1,6 +1,6 @@
 {
   "name": "redub-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a command line interface for redub (a react redux boilerplate)",
   "main": "./dist/index.js",
   "scripts": {
