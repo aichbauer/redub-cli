@@ -67,15 +67,15 @@ This command has the ability to generate a new templates
 of a *container*, a *component*, a *view*, a *reducers*, or an *action*.
 
 ```sh
-$ redub generate [what] [name]
+$ redub generate [type] [name]
 ```
 
 shortcut
 ```sh
-$ redub g [what] [name]
+$ redub g [type] [name]
 ```
 
-**[what]**:
+**[type]**:
 * act -> an action
 * red -> an reducer
 * cont -> an container
