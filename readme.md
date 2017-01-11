@@ -64,7 +64,7 @@ $ redub n [name]
 ## generate
 
 This command has the ability to generate a new templates 
-of a *containers*, a *components*, a *views*, a *reducers*, or an *actions*.
+of a *container*, a *component*, a *view*, a *reducers*, or an *action*.
 
 ```sh
 $ redub generate [what] [name]
@@ -76,10 +76,10 @@ $ redub g [what] [name]
 ```
 
 **[what]**:
-* act -> an actions
+* act -> an action
 * red -> an reducer
-* cont -> an cont
-* comp -> an comp
+* cont -> an container
+* comp -> an component
 * view -> an view
 
 **[name]**:
