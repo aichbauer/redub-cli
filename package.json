@@ -20,14 +20,14 @@
     "redub",
     "cli"
   ],
-  "author": "Lukas Aichbauer  <rudolfson.junior@gmail.com> (https://github.com/rudolfsonjunior/)",
+  "author": "Lukas Aichbauer  <l.aichbauer@gmail.com> (https://github.com/aichbauer/)",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rudolfsonjunior/redub-cli.git"
+    "url": "git+https://github.com/aichbauer/redub-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/rudolfsonjunior/redub-cli/issues"
+    "url": "https://github.com/aichbauer/redub-cli/issues"
   },
   "homepage": "https://github.com/rudolfsonjunior/redub-cli#readme",
   "bin": {
